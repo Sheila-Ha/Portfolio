@@ -1,18 +1,8 @@
 
-::selection {
-    background-color: var(--bright-turquoise);
-    color: var(--outer-space);
-}
-
-.hero {
-    box-sizing:border-box;
-    height: 150px;
-    width: 100%;
-    background-image: url("images/02-hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-top: 50px;
-
+:root {
+    --dark: #31343D;
+    --light: #445877;
+    --navlink-color: #92CCCE;
 }
 
 body {
@@ -22,28 +12,25 @@ body {
 
 .header {
     background-color: #31343D;
-}
-
-.header h1 {
+    font-size: 30px;
     margin: 0;
-    padding: 10px 0px;
+    padding: -10px 0px;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
 
 .header h1 a {
-    background-color:#92CCCE;
-    padding-right: 10px;
-    padding-left: 60px;
+    background-color: var(--navlink-color);
+    padding-right: auto;
+    padding-left: auto;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
     font-family: sans-serif;
-    color: #31343D;
-}
-
-.header h1 a:hover {
-    background-color: rgb(14, 9, 172);
-    color: white;
-
+    color: var(--dark);
 }
 
 .header li {
@@ -52,21 +39,25 @@ body {
     padding: 5px 30px;
 }
 
-.header li:hover {
-    background-color: rgb(14, 9, 172);
-    color: white;
-}
-
 .header li a {
     color: #92CCCE;
     font-size: larger;
 }
 
+ul li :hover {
+    background-color: black;
+    color: white; 
+}
 
-.nav-links {
-    display: flex;
-    justify-content:flex-end;
-    align-items: flex-end;
+.hero {
+    box-sizing:border-box;
+    height: 225px;
+    width: 100%;
+    background-image: url("images/02-hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    color: orange;
 }
 
 .footer {
@@ -74,14 +65,21 @@ body {
     padding: 100px;
     text-align: center;
     font-family: sans-serif;
-    background-color: tan;
+    color: var(--light)
+}
+
+h2 {
+    color: var(--light);
+    border-bottom: max-width;
+    border-color: var(--light)
+
 }
 
 
 
-.h7 {
+/* .h7 { 
     background-color:
-}
+} */
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
