@@ -21,9 +21,7 @@ h2 {
     background-color: var(--navlink-color);
     margin: 150px 75px 20px 75px;
     font-size: 35px;
-   text-align: center;
-
-        
+   text-align: center        
 }
 
 h3 {
@@ -79,28 +77,28 @@ ul li {
     padding-bottom: 10px;
 }
 
-ul li :hover {
-    background-color: black;
-    color: white; 
+ul li a:hover {
+    background-color: orange;
+    color: black; 
 }
 
-
-
-ul li a :hover {
-    background-color: black;
-    color: white
-}
 
 /* header classes */
 .header {
     background-color: var(--light);
     font-size: 30px;
+    background-color: var(--dark);
     /* display: flex;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between; */
 
+}
+.header ul li a {
+    text-decoration: none;
+    border-bottom: 3px solid var(--navlink-color);
+    padding: 0px 5px;
 }
 
 .header h1 {
@@ -149,8 +147,6 @@ ul li a :hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .container {
@@ -163,19 +159,26 @@ ul li a :hover {
     left: 5px;
     background-color: var(--navlink-color);
     margin-left: inherit;
-    color: var(--light)
-
+    color: var(--light);
 }
 
 .text-box p {
     font-size: 15px;
     margin: 0px;
-    padding: 10px 10px 10px 0px;
+    padding: 5px 5px 5px 0px;
     
 }
 
-.links {
-   margin: 35px;
+.links li {
+    display: flexbox;
+    font-size: larger;
+    
+}
+
+.links li a {
+    color: var(--dark);
+    text-decoration: none;
+    border-bottom: 3px solid var(--dark);
 }
 
 
@@ -186,41 +189,66 @@ ul li a :hover {
         margin: 200px 10px 30px 350px;
     }
 
+    h4 {
+        font-size: 20px;
+    }
+
+    .text-box p {
+        font-size: 10px;
+    }
     .ul {
         padding: 20px 0 5px 0;
-        
     }
 
     .nav-links {
-    
         background-color: var(--dark);
     }
 
     img {
         object-fit: cover;
-        height: 250px;
+        height: 450px;
         width: 100%;
-        
     }
 
     .flex-container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        margin: 0 20px;
     }
 
     .flex-container .container {
         flex: 0 0 50%;
-        max-width: 50%;
+        max-width: 50%;    
     }
 
+    .flex-container .container figure {
+        margin: 0 20px 15px 20px;
+    }
+    .flex-container .container img {
+        height: 150px;
+    }
+    
+    .links li {
+        display: inline-flex;
+        justify-content: space-around;
+        padding: 5px 30px;  
+    }    
+    
+    .links li a {
+        color: var(--dark);
+        font-size:18px;
+        margin-bottom: 25px;
+    }
+      
 /* {
     .header {
         display: flex;
         max-width: auto;
         max-height: auto;
-    } */
-}
+    } *
+
+
 
 /* media query for larger screens */
 @media screen and (min-width: 992px) 
