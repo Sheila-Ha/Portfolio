@@ -1,21 +1,21 @@
 
+/*var... grab and go colors*/
 :root {
     --dark: #31343D;
     --light: #445877;
     --navlink-color: #92CCCE;
 }
-
+/*body styles*/
 body {
     margin: auto;
     background-color:#EEEEF7;
     font-family: sans-serif;
 }
-
-/* headers */
+/*headers*/
 h1 {
     font-size: 40px;
 }
-
+/*styling for wording on hero image*/
 h2 {
     color: var(--dark);
     background-color: var(--navlink-color);
@@ -23,7 +23,7 @@ h2 {
     font-size: 35px;
    text-align: center        
 }
-
+/*about me and work*/
 h3 {
     color: var(--light);
     border-color: var(--light);
@@ -31,14 +31,14 @@ h3 {
     border-bottom: 5px solid var(--light);
     margin: 25px;
 }
-
+/*verbiage on picture images in the body*/
 h4 {
     font-family: sans-serif;
     font-size: 30px;
     color: var(--light);
     margin:0;    
 }
-
+/*Contact me*/
 h5 {
     font-family: sans-serif;
     font-size: 30px;
@@ -46,97 +46,73 @@ h5 {
     border-bottom: 5px solid var(--light);
     margin: 25px
 }
-
-
-/* paragraph */
+/*paragraphs*/
 p {
     font-size: 20px;
     font-family: sans-serif;
     margin: 25px;
-    
-
 }
-
-/* img */
+/*img*/
 img {
     object-fit: cover;
     border: 5px solid var(--navlink-color);
     max-width: 100%;
 }
-
-/* ul */
+/*unordered list*/
 ul {
     padding: 0;
     margin: 0;
     font-size: 15px;
 }
-
+/*list items w/in the unordered list*/
 ul li {
     list-style-type: none;
     padding: 5px;
     padding-bottom: 10px;
 }
-
+/*creates a highlight when you mouse over*/
 ul li a:hover {
     background-color: orange;
     color: black; 
 }
-
-
-/* header classes */
+/*header classes*/
 .header {
     background-color: var(--light);
     font-size: 30px;
     background-color: var(--dark);
-    /* display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between; */
-
 }
+/*header list w/in the unordered list containing links*/
 .header ul li a {
     text-decoration: none;
     border-bottom: 3px solid var(--navlink-color);
     padding: 0px 5px;
 }
-
 .header h1 {
     margin: 0;
 }
-
+/*Portfolio*/
 .header h1 a {
     background-color: var(--navlink-color);
-    /* padding-right: auto;
-    padding-left: auto;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row; */
     text-decoration: none;
-    /* text-align: right; */
     display: block;
     text-align: center;
     font-family: sans-serif;
     color: var(--dark);
 }
-
 .nav-links {
     text-align: center;
 }
-
+/*flex to create layout about me, work, contact me, resume*/
 .header li {
     display: inline-flex;
     justify-content: space-around;
     padding: 5px 20px;
 }
-
 .header li a {
     color: var(--navlink-color);
     font-size: larger;
 }
-
-/* hero */
+/*hero style and positioning using flex*/
 .hero {
     background-image: url("images/02-hero-bg.jpg");
     height: 225px;
@@ -148,11 +124,11 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-
+/*surf img*/
 .container {
     position: relative;   
 }
-
+/*top verbiage on imgs*/
 .text-box {
     position: absolute;
     bottom: 50px;
@@ -161,102 +137,81 @@ ul li a:hover {
     margin-left: inherit;
     color: var(--light);
 }
-
+/*second line verbiage on imgs*/
 .text-box p {
     font-size: 15px;
     margin: 0px;
     padding: 5px 5px 5px 0px;
-    
 }
-
+/*clickable links on footer using flex*/
 .links li {
     display: flexbox;
     font-size: larger;
     
 }
-
 .links li a {
     color: var(--dark);
     text-decoration: none;
     border-bottom: 3px solid var(--dark);
 }
-
-
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) 
 {
-
-    h2 { 
-        margin: 200px 10px 30px 350px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
-
-    .text-box p {
-        font-size: 10px;
-    }
-    .ul {
-        padding: 20px 0 5px 0;
-    }
-
-    .nav-links {
-        background-color: var(--dark);
-    }
-
-    img {
-        object-fit: cover;
-        height: 450px;
-        width: 100%;
-    }
-
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin: 0 20px;
-    }
-
-    .flex-container .container {
-        flex: 0 0 50%;
-        max-width: 50%;    
-    }
-
-    .flex-container .container figure {
-        margin: 0 20px 15px 20px;
-    }
-    .flex-container .container img {
-        height: 150px;
-    }
-    
-    .links li {
-        display: inline-flex;
-        justify-content: space-around;
-        padding: 5px 30px;  
-    }    
-    
-    .links li a {
-        color: var(--dark);
-        font-size:18px;
-        margin-bottom: 25px;
-    }
+h2 { 
+    margin: 200px 10px 30px 350px;
 }
-
+h4 {
+    font-size: 20px;
+}
+.text-box p {
+    font-size: 10px;
+}
+.ul {
+    padding: 20px 0 5px 0;
+}
+.nav-links {
+    background-color: var(--dark);
+}
+img {
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 20px;
+}
+.flex-container .container {
+    flex: 0 0 50%;
+    max-width: 50%;    
+}
+.flex-container .container figure {
+    margin: 0 20px 15px 20px;
+}
+.flex-container .container img {
+    height: 150px;
+}
+.links li {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 5px 30px;  
+}    
+.links li a {
+    color: var(--dark);
+    font-size:18px;
+    margin-bottom: 25px;
+}
+}
 /* media query for larger screens */
 @media screen and (min-width: 992px) 
 {
-
 h2 {
     font-size: 25px;
     display: flex;
     margin-left: 70%;
 }   
-
-h3 {
-
-}
-
 h3, h5 {
     border-bottom: none; 
     float: left;
@@ -265,18 +220,15 @@ h3, h5 {
     margin-left: 70px;
     font-size: 40px;
 }
-
 .header {
     display: flex;
     max-width: auto;
     max-height: auto;
     padding: 10px 0 0 0;
     } 
-
 .header h1 a {
     padding: 5px 15px 5px 5px;
 }
-
 .h3 p {
    padding: 0 300px 0 300px;
 }
@@ -286,42 +238,32 @@ h3, h5 {
     margin-left: auto;
   
 }
-
 .nav-links li {
     padding: 10px 10px 30px 0;
 }
-
 .nav-links li a {
     padding: 0 0 50px 0;
 }
-
 .first-column h3, .contact h5 {
     clear: both;
     float: left;
     width: 16%;
     padding: 0 2% 0 0;
     margin: 0 0 20px 0;
-
 }
-
 .first-column p {
-    font-size: 12px;
-    
+    font-size: 12px;  
 }
-
 .about h3 {
     height:225px;
 }
-
 .work h3 {
     height:840px;
 }
 .second-column {
     float: right;
     width: 80%;
-
 }
-
 .h5 li {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -329,7 +271,6 @@ h3, h5 {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
-
 .contact {
     margin-bottom: 70px;
 }
@@ -339,14 +280,7 @@ h3, h5 {
     display: block;
     clear: both;
 }
-
 .links {
     margin-top: 50px;
 }
-
-
-
-
-
-
 }
