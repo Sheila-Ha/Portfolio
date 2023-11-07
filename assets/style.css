@@ -246,10 +246,6 @@ ul li a:hover {
 /* media query for larger screens */
 @media screen and (min-width: 992px) 
 {
-   
-h1 {
-
-}
 
 h2 {
     font-size: 25px;
@@ -258,24 +254,32 @@ h2 {
 }   
 
 h3 {
-    border-bottom: none;
+
 }
 
 h3, h5 {
-
+    border-bottom: none; 
+    float: left;
+    text-align: right;
+    border-right: solid 3px var(--light);
+    margin-left: 70px;
+    font-size: 40px;
 }
 
 .header {
-        display: flex;
-        max-width: auto;
-        max-height: auto;
-        padding: 10px 0 0 0;
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+    padding: 10px 0 0 0;
     } 
 
 .header h1 a {
     padding: 5px 15px 5px 5px;
 }
 
+.h3 p {
+   padding: 0 300px 0 300px;
+}
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -291,20 +295,54 @@ h3, h5 {
     padding: 0 0 50px 0;
 }
 
-.side-bar {
-    display: flex;
+.first-column h3, .contact h5 {
+    clear: both;
+    float: left;
+    width: 16%;
+    padding: 0 2% 0 0;
+    margin: 0 0 20px 0;
+
 }
 
-.side-bar p {
+.first-column p {
     font-size: 12px;
     
 }
 
+.about h3 {
+    height:225px;
+}
 
+.work h3 {
+    height:840px;
+}
+.second-column {
+    float: right;
+    width: 80%;
 
+}
 
+.h5 li {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
 
+.contact {
+    margin-bottom: 70px;
+}
+ /* clear floats after last on */
+.contact:after {
+    content: '';
+    display: block;
+    clear: both;
+}
 
+.links {
+    margin-top: 50px;
+}
 
 
 
