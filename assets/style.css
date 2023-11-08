@@ -61,8 +61,7 @@ img {
 /*unordered list*/
 ul {
     padding: 0;
-    margin: 0;
-    font-size: 15px;
+    margin: 0%;
 }
 /*list items w/in the unordered list*/
 ul li {
@@ -143,11 +142,13 @@ ul li a:hover {
     margin: 0px;
     padding: 5px 5px 5px 0px;
 }
+.contact ul {
+    font-size: 15px;
+}
 /*clickable links on footer using flex*/
 .links li {
     display: flexbox;
     font-size: larger;
-    
 }
 .links li a {
     color: var(--dark);
@@ -250,8 +251,11 @@ h4{
 .nav-links li a {
     padding: 0 0 50px 0;
 }
-.first-column h3, .contact h5 {
+/*needed to clear any previous floats*/
+.first-column {
     clear: both;
+}
+.first-column h3, .contact h5 {
     float: left;
     width: 16%;
     padding: 0 2% 0 0;
@@ -283,7 +287,7 @@ h4{
 .contact {
     margin-bottom: 70px;
 }
- /* clear floats after last on */
+ /*clear floats after last one*/
 .contact:after {
     content: '';
     display: block;

@@ -1,15 +1,15 @@
 # My Portfolio
 
 
-
 ## Description
-  - This project was motivated to help others with their websites in 3 areas.
-    ## What are the 3 aspects of websites?
-  - This site solves problems for people looking for 
-     -  SEO = Search Engine Optimization
-     -  ORM = Online Reputation Management
-     -  SMM = Social Media  Marketing
-  - What we learned was how to use alt tags for ADA on pictures and icons, ensure proper semantic flow and ensuring all links are working.
+  - This project is intended to kick off my work portfolio
+
+  ### What are the aspects of my website?
+    - About me
+    - My work and resume
+    - Contact information
+
+  - What I learned was how to incorporate media queries and all the adjustments that go into making it responsive.
 
 ## Installation:
   - ### Create a new repo on GitHub
@@ -25,21 +25,24 @@
       - git clone https://github.com/YOUR-USERNAME/YOURREPOSITORY
           - Your command line should respond as below.
 
-           ![command line output](image.png)
+         ![Alt text](image.png)
 
   - ### Navition
       - Navigate to the folder in which you cloned your repo
       - Click on index.html file
       - Double click to open file
 
-
 ## Features:
   - Web Accessibility
   git
-## Built with:
+
+## Built with and deployed with:
   - HTML
   - CSS
-
+  - Visual Studios Code
+  - Git Bash
+  - GitHub
+  
 ## Usage:
   - On your machine navigate to the folder you created.
   - Locate the Index.html file in your browser.
