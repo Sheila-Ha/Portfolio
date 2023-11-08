@@ -220,6 +220,12 @@ h3, h5 {
     margin-left: 70px;
     font-size: 40px;
 }
+img{
+    border:11px solid var(--navlink-color);
+}
+h4{
+    font-size: px;
+}
 .header {
     display: flex;
     max-width: auto;
@@ -231,12 +237,12 @@ h3, h5 {
 }
 .h3 p {
    padding: 0 300px 0 300px;
+   font-size: 55px;
 }
 .nav-links {
     display: flex;
     justify-content: space-around;
     margin-left: auto;
-  
 }
 .nav-links li {
     padding: 10px 10px 30px 0;
@@ -251,9 +257,6 @@ h3, h5 {
     padding: 0 2% 0 0;
     margin: 0 0 20px 0;
 }
-.first-column p {
-    font-size: 12px;  
-}
 .about h3 {
     height:225px;
 }
@@ -263,6 +266,12 @@ h3, h5 {
 .second-column {
     float: right;
     width: 80%;
+}
+.text-box h4 {
+    font-size: 22px;
+}
+.text-box p {
+    font-size: 15px;
 }
 .h5 li {
     display: grid;
@@ -282,5 +291,8 @@ h3, h5 {
 }
 .links {
     margin-top: 50px;
+}
+.links ul li a{
+    font-size: 23px;
 }
 }
