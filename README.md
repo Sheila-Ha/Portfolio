@@ -2,7 +2,7 @@
 
 
 ## Description
-  - This project is intended to kick off my work portfolio
+  - This project is intended to kick off my work portfolio. Within the site you will see examples of a demo site I have created. At a later date I will add my resume and currently at the bottom you will find my various contact information. This site is 100% responsive for viewing on a variety of devices.
 
   ### What are the aspects of my website?
     - About me
@@ -35,6 +35,7 @@
 ## Features:
   - Web Accessibility
   git
+  - 100% responsive site
 
 ## Built with and deployed with:
   - HTML
