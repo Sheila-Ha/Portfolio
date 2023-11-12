@@ -11,6 +11,18 @@
 
   - What I learned was how to incorporate media queries and all the adjustments that go into making it responsive.
 
+  ### - 3 different views you might see depending on your screen size
+  * Cell Phone view
+    ![Alt text](768MinWidth.png)
+
+
+  * 768 Min Width View
+    ![Alt text](768MinWidth.png)
+  
+
+  * 992 Min Width View
+    ![Alt text](homepage_screenshot.png)
+
 ## Installation:
   - ### Create a new repo on GitHub
       - Go to the upper right corner and click the + icon to create a New Repository
@@ -48,6 +60,7 @@
   - On your machine navigate to the folder you created.
   - Locate the Index.html file in your browser.
   - https://sheila-ha.github.io/horiseon-01/
+  - https://sheila-ha.github.io/Portfolio/
   - https://github.com/Sheila-Ha/my-portfolio
 
 ## Credits:
