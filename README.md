@@ -8,8 +8,9 @@
     - About me
     - My work and resume
     - Contact information
+    - Responsive for all media screen sizes
 
-  - What I learned was how to incorporate media queries and all the adjustments that go into making it responsive.
+  - What I learned was how to incorporate media queries and all the adjustments that go into making it responsive. 
 
   ### - 3 different views you might see depending on your screen size
   * Cell Phone view
