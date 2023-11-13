@@ -32,7 +32,7 @@
       - Click Create Repository 
 
   - ### Clone the repo to a folder on your machine
-      - Navagate to the directory you want to clone
+      - Navigate to the directory you want to clone
       - git clone https://github.com/url-TO_REPO_HERE
           - git clone command - it copies the repo from github  to your local computer
       - git clone https://github.com/YOUR-USERNAME/YOURREPOSITORY
@@ -40,7 +40,7 @@
 
          ![Alt text](image.png)
 
-  - ### Navition
+  - ### Navigation
       - Navigate to the folder in which you cloned your repo
       - Click on index.html file
       - Double click to open file
