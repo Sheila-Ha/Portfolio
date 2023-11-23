@@ -61,6 +61,7 @@
   - On your machine navigate to the folder you created.
   - Locate the Index.html file in your browser.
   - https://sheila-ha.github.io/horiseon-01/
+  - https://sheila-ha.github.io/password-gen/
   - https://sheila-ha.github.io/Portfolio/
   - https://github.com/Sheila-Ha/my-portfolio
 

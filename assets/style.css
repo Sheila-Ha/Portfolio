@@ -138,9 +138,7 @@ ul li a:hover {
 .text-box {
     position: absolute;
     bottom: 50px;
-    left: 5px;
     background-color: var(--navlink-color);
-    margin-left: inherit;
     color: var(--light);
 }
 /*second line verbiage on imgs*/
