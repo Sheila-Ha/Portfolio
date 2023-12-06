@@ -60,6 +60,8 @@
 ## Usage:
   - On your machine navigate to the folder you created.
   - Locate the Index.html file in your browser.
+  - https://sheila-ha.github.io/scheduler/
+  - https://sheila-ha.github.io/code-quiz/
   - https://sheila-ha.github.io/horiseon-01/
   - https://sheila-ha.github.io/password-gen/
   - https://sheila-ha.github.io/Portfolio/
