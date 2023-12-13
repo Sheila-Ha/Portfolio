@@ -70,7 +70,7 @@
 ## Credits:
 The guide used:
  - [Instructions and Starter Code](https://git.bootcampcontent.com/University-of-Minnesota/UofM-VIRT-FSF-PT-10-2023-U-LOLC/-/tree/main/01-HTML-Git-CSS/02-Challenge)
-
+ - [Bootstrap containers](https://www.w3schools.com/bootstrap4/bootstrap_containers.asp)
 
 ## License:
   - By contributing, you agree that your contribution wil be licensed under its MIT License.
