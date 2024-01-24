@@ -64,6 +64,9 @@
   - https://sheila-ha.github.io/code-quiz/
   - https://sheila-ha.github.io/horiseon-01/
   - https://sheila-ha.github.io/password-gen/
+  - https://salidamaharjan.github.io/food-and-recipe/
+  - https://sheila-ha.github.io/5-day-forecast/
+  - https://note-taker-demo-38df2f8b4c58.herokuapp.com/notes
   - https://sheila-ha.github.io/Portfolio/
   - https://github.com/Sheila-Ha/my-portfolio
 
