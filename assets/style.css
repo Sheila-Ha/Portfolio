@@ -45,6 +45,9 @@ h5 {
   border-bottom: 5px solid var(--light);
   margin: 25px;
 }
+.black-white img {
+  float: left;
+}
 /*paragraphs*/
 p {
   font-size: 20px;
